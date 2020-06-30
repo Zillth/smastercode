@@ -1,15 +1,21 @@
 {
-  "name": "smastercode",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "9.4.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
-  }
+    "name": "smastercode",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.0",
+        "formik": "^2.1.4",
+        "jsonwebtoken": "^8.5.1",
+        "next": "9.4.4",
+        "password-crypt": "^2.2.0",
+        "react": "16.13.1",
+        "react-bootstrap": "^1.0.1",
+        "react-dom": "16.13.1",
+        "react-google-login": "^5.1.20"
+    }
 }
