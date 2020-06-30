@@ -15,7 +15,7 @@ export default function Home() {
       <h1>Change with git</h1>
       <LoginForm />
       <GoogleLogin
-        clientId="658977310896-knrl3gka66fldh83dao2rhgbblmd4un9.apps.googleusercontent.com"
+        clientId={process.env.ID_GOOGLE_CLIENT}
         render={renderProps => (
           <button onClick={renderProps.onClick} disabled={renderProps.disabled} >This is my custom Google button</button>
         )}
