@@ -12,8 +12,6 @@ export default function Home() {
       <Head>
         <title>SmasterCode - Home -</title>
       </Head>
-      <h1>Change with git</h1>
-      <LoginForm />
       <GoogleLogin
         clientId={process.env.ID_GOOGLE_CLIENT}
         render={renderProps => (
