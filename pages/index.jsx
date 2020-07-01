@@ -12,8 +12,8 @@ export default function Home() {
       <Head>
         <title>SmasterCode - Home -</title>
       </Head>
-      {console.log(process.env)}
-      {console.log(process)}
+      {console.log(process.env.ID_GOOGLE_CLIENT)}
+      {console.log(process.GOOGLE_SECRET)}
       <GoogleLogin
         clientId={process.env.ID_GOOGLE_CLIENT}
         render={renderProps => (
