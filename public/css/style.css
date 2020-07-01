@@ -1,0 +1,95 @@
+:root {
+    --main: #7E7AD8;
+    --main_lighter: #9693D8;
+    --main_darker: #4E4BB1;
+    --secundary: #F0E68C;
+    --secundary_lighter: #FEF7A0;
+    --secundary_darker: #FDEF52;
+    --secundary2: #FEC97D;
+    --secundary2_lighter: #FED7A0;
+    --secundary2_darker: #FDB652;
+    --black: #000000;
+}
+
+
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* neomorph */
+
+.neo__main {
+    border-radius: 20px;
+    box-shadow: 9px 9px 25px var(--main_darker), -9px -9px 30px var(--main_lighter);
+}
+
+.neo__secundary {
+    border-radius: 20px;
+    box-shadow: 7px 7px 25px var(--secundary_darker), -9px -9px 30px var(--secundary_lighter);
+}
+
+.neo__secundary2 {
+    border-radius: 20px;
+    box-shadow: 7px 7px 25px var(--secundary2_darker), -9px -9px 30px var(--secundary2_lighter);
+}
+
+.neo__button-main {
+    background-color: var(--main);
+    color: var(--main_darker);
+    box-shadow: 9px 9px 25px var(--main_darker), -9px -9px 30px var(--main_lighter);
+}
+
+.neo__button--secundary {
+    background-color: var(--secundary);
+    color: var(--black);
+    box-shadow: 9px 9px 25px var(--secundary_darker), -9px -9px 30px var(--secundary_lighter);
+}
+
+
+/* SignUp */
+
+.form__container {
+    width: 40vw;
+    margin: auto;
+    padding: 15px;
+}
+
+.layer__main {
+    background-color: var(--main);
+    padding: 30px;
+}
+
+.layer__secundary {
+    background-color: var(--secundary);
+}
+
+
+/* Responsive */
+
+@media(max-width: 1200px) {
+    .form__container {
+        width: 70vw;
+    }
+}
+
+@media(max-width: 700px) {
+    .form__container {
+        width: 80vw;
+    }
+}
+
+
+/* Develop */
+
+.indentify {
+    border: 1px solid red;
+}
