@@ -13,7 +13,7 @@ export default function Home() {
         <title>SmasterCode - Home -</title>
       </Head>
       <GoogleLogin
-        clientId={process.env.ID_GOOGLE_CLIENT}
+        clientId="435050867593-ditrn3nqr78c0vop8eqkn58i246umc3o.apps.googleusercontent.com"
         render={renderProps => (
           <button onClick={renderProps.onClick} disabled={renderProps.disabled} >This is my custom Google button</button>
         )}
